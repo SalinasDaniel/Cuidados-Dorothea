@@ -37,10 +37,6 @@ body header .logo-contact {
 
 body footer {
   background-color: #05283C; }
-  @media (max-width: 667px) {
-    body footer {
-      position: absolute;
-      top: 6500px; } }
   body footer .row {
     margin-right: 0; }
     body footer .row .col-sm-8 ul {
@@ -241,11 +237,12 @@ body main .slider-testimonio {
     body main .slider-testimonio {
       height: 500px; } }
   body main .slider-testimonio .testimonials .title-testimonio {
-    margin-left: 8%;
+    margin-left: 18%;
     margin-top: 200px; }
     @media (max-width: 667px) {
       body main .slider-testimonio .testimonials .title-testimonio {
-        margin-top: 80px; } }
+        margin-top: 80px;
+        margin-left: 8%; } }
     body main .slider-testimonio .testimonials .title-testimonio h2 {
       font-weight: bold; }
     @media (max-width: 667px) {
@@ -264,19 +261,22 @@ body main .slider-testimonio {
         body main .slider-testimonio .testimonials .title-testimonio .testimonio {
           width: 84%; } }
     body main .slider-testimonio .testimonials .title-testimonio img {
-      margin-left: 37%; }
+      margin-left: 21%; }
       @media (max-width: 667px) {
         body main .slider-testimonio .testimonials .title-testimonio img {
           display: none; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .slider-testimonio .testimonials .title-testimonio img {
-          margin-top: -272px; } }
+          margin-top: -290px; } }
       @media (min-width: 1025px) {
         body main .slider-testimonio .testimonials .title-testimonio img {
-          margin-top: -247px; } }
+          margin-top: -272px; } }
 
 body main .block-services {
   color: #FFFFFF; }
+  @media (max-width: 667px) {
+    body main .block-services {
+      margin-bottom: 1550px; } }
   @media (max-width: 667px) {
     body main .block-services hr {
       display: none; } }
@@ -294,36 +294,44 @@ body main .block-services {
   body main .block-services .items {
     margin-right: 0;
     margin-left: 0;
-    height: 220px;
+    height: 250px;
     margin-top: 130px;
     margin-bottom: 90px; }
     @media (max-width: 667px) {
       body main .block-services .items {
-        margin-bottom: 200px; } }
+        margin-bottom: 266px;
+        padding-right: 6%;
+        padding-left: 6%; } }
     @media (max-width: 667px) {
       body main .block-services .items .ult {
-        margin-top: 728px; } }
+        margin-top: 830px; } }
+    @media (max-width: 667px) {
+      body main .block-services .items .ult-2 {
+        margin-top: 36px !important;
+        padding-bottom: 2% !important; } }
     @media (max-width: 667px) {
       body main .block-services .items .item-1 {
         text-align: center; } }
     body main .block-services .items .item-1 img {
       background-color: #78D1DF;
       border-radius: 184px;
-      width: 228px; }
+      width: 264px;
+      box-shadow: 5px 5px 18px -4px rgba(0, 0, 0, 0.75); }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .block-services .items .item-1 img {
-          margin-left: 22%; } }
+          margin-left: 10%; } }
       @media (min-width: 1025px) {
         body main .block-services .items .item-1 img {
-          margin-left: 42%; } }
+          margin-left: 36%; } }
     body main .block-services .items .item-2 {
-      border-radius: 115px 0px 0px 115px;
+      border-radius: 140px 0px 0px 140px;
       background-color: #78D1DF;
       text-align: center; }
       @media (max-width: 667px) {
         body main .block-services .items .item-2 {
           border-radius: 69px 69px 0px 0px;
-          margin-top: 35px; } }
+          margin-top: 35px;
+          padding-bottom: 1%; } }
       body main .block-services .items .item-2 p {
         font-weight: bold;
         font-size: 40px;
@@ -336,6 +344,11 @@ body main .block-services {
         border-radius: 28px;
         cursor: pointer;
         transition: 1s; }
+        @media (max-width: 667px) {
+          body main .block-services .items .item-2 button {
+            font-size: 29px;
+            width: 82%;
+            height: 61px; } }
       body main .block-services .items .item-2 button:hover {
         background-color: #FFFFFF;
         color: #000000;
@@ -348,10 +361,12 @@ body main .block-services {
           border-radius: 0px 0px 69px 69px;
           padding-bottom: 28px; } }
       body main .block-services .items .item-3 ul {
-        margin-top: 29px; }
+        margin-top: 23px;
+        font-size: 20px; }
         @media (max-width: 667px) {
           body main .block-services .items .item-3 ul {
-            margin-left: 26%; } }
+            margin-left: 26%;
+            font-size: 22px; } }
         body main .block-services .items .item-3 ul li {
           margin-bottom: 12px; }
     body main .block-services .items .item-4 {
@@ -359,7 +374,7 @@ body main .block-services {
       text-align: center; }
       @media (max-width: 667px) {
         body main .block-services .items .item-4 {
-          margin-top: 628px;
+          margin-top: 740px;
           border-radius: 69px 69px 0px 0px; } }
       body main .block-services .items .item-4 p {
         font-weight: bold;
@@ -373,15 +388,24 @@ body main .block-services {
         border-radius: 28px;
         cursor: pointer;
         transition: 1s; }
+        @media (max-width: 667px) {
+          body main .block-services .items .item-4 button {
+            font-size: 29px;
+            width: 82%;
+            height: 61px; } }
       body main .block-services .items .item-4 button:hover {
         background-color: #FFFFFF;
         color: #000000;
         border: solid 1px #000000; }
     body main .block-services .items .item-5 {
-      border-radius: 0px 115px 115px 0px;
+      border-radius: 0px 140px 140px 0px;
       background-color: #78D1DF; }
       body main .block-services .items .item-5 ul {
-        margin-top: 29px; }
+        margin-top: 29px;
+        font-size: 20px; }
+        @media (max-width: 667px) {
+          body main .block-services .items .item-5 ul {
+            font-size: 22px; } }
         body main .block-services .items .item-5 ul li {
           margin-bottom: 12px; }
       @media (max-width: 667px) {
@@ -394,8 +418,307 @@ body main .block-services {
     body main .block-services .items .item-6 img {
       background: linear-gradient(to right, #78D1DF 0%, #78B5DC 100%);
       border-radius: 184px;
-      width: 228px;
-      margin-left: 3%; }
+      width: 264px;
+      margin-left: 3%;
+      box-shadow: 5px 5px 18px -4px rgba(0, 0, 0, 0.75); }
       @media (max-width: 667px) {
         body main .block-services .items .item-6 img {
-          margin-top: -1169px; } }
+          margin-top: -1463px; } }
+
+body main .formulario {
+  background: linear-gradient(to right, #78D1DF 0%, #78B5DC 100%); }
+  body main .formulario .form-description {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 8%;
+    padding-bottom: 25%; }
+    @media (max-width: 667px) {
+      body main .formulario .form-description {
+        padding-top: 23%;
+        padding-bottom: 44%; } }
+    body main .formulario .form-description .description {
+      background-color: #FFFFFF;
+      border-radius: 22px;
+      padding-left: 11%;
+      padding-right: 11%;
+      padding-top: 9%;
+      padding-bottom: 6%; }
+      body main .formulario .form-description .description p {
+        font-size: 37px;
+        color: #004D94; }
+      body main .formulario .form-description .description img {
+        margin-left: 22%;
+        margin-top: 22px; }
+        @media (max-width: 667px) {
+          body main .formulario .form-description .description img {
+            display: none; } }
+    @media (max-width: 667px) {
+      body main .formulario .form-description .form {
+        margin-top: 30px;
+        padding-right: 0;
+        padding-left: 0; } }
+    body main .formulario .form-description .form form {
+      background-color: #FFFFFF;
+      padding-top: 13%;
+      padding-left: 9%;
+      padding-right: 9%;
+      border-radius: 22px;
+      padding-bottom: 25%; }
+      body main .formulario .form-description .form form p {
+        font-size: 29px;
+        color: #004D94;
+        margin-bottom: 30px; }
+      body main .formulario .form-description .form form input {
+        border-radius: 30px;
+        margin-bottom: 17px;
+        border-color: #004D94;
+        height: 50px; }
+      body main .formulario .form-description .form form .bton {
+        width: 100%;
+        background-color: #00C13A;
+        color: #FFFFFF;
+        height: 50px;
+        transition: 1s;
+        font-size: 25px;
+        border-radius: 70px; }
+      body main .formulario .form-description .form form .bton:hover {
+        background-color: #FFFFFF;
+        color: #00C13A;
+        border: solid 1px #00C13A;
+        border-radius: 80px; }
+
+body main .biografia {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -181px;
+  margin-left: -1%;
+  position: absolute; }
+  @media (max-width: 667px) {
+    body main .biografia {
+      margin-top: -50px;
+      background-color: #0C1E3A; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .biografia {
+      background-image: url("../../assets/images/Fondo-Biografia.png"); } }
+  @media (min-width: 1025px) {
+    body main .biografia {
+      background-image: url("../../assets/images/Fondo-Biografia.png"); } }
+  body main .biografia .items {
+    margin-right: 0;
+    margin-left: 0; }
+    @media (max-width: 667px) {
+      body main .biografia .items {
+        margin-top: 14px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .biografia .items {
+        margin-top: 129px; } }
+    @media (min-width: 1025px) {
+      body main .biografia .items {
+        margin-top: 172px; } }
+    @media (max-width: 667px) {
+      body main .biografia .items .item-1 {
+        text-align: center; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .biografia .items .item-1 {
+        text-align: center; } }
+    @media (min-width: 1025px) {
+      body main .biografia .items .item-1 {
+        text-align: right; } }
+    body main .biografia .items .item-2 {
+      text-align: center;
+      margin-left: -11%;
+      margin-top: 17px;
+      color: #FFFF; }
+      @media (max-width: 667px) {
+        body main .biografia .items .item-2 {
+          margin-top: 24px;
+          margin-left: 0%; } }
+  body main .biografia .description-img {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 15%;
+    padding-bottom: 29%;
+    margin-top: 150px; }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .biografia .description-img {
+        margin-top: 55px; } }
+    @media (min-width: 1025px) {
+      body main .biografia .description-img {
+        margin-top: 150px; } }
+    @media (max-width: 667px) {
+      body main .biografia .description-img .title {
+        margin-left: -6%;
+        margin-top: -77px; } }
+    body main .biografia .description-img .title hr {
+      background-color: #FFFFFF;
+      width: 74%;
+      margin-right: 32%;
+      margin: 0; }
+    body main .biografia .description-img .title h3 {
+      color: #FFFFFF;
+      font-size: 54px; }
+    body main .biografia .description-img .title p {
+      color: #FFFFFF;
+      margin-top: 68px; }
+    body main .biografia .description-img .title button {
+      background-color: transparent;
+      border: solid 1px #FFFFFF;
+      color: #FFFFFF;
+      border-radius: 29px;
+      width: 134px;
+      height: 36px;
+      transition: 1s;
+      cursor: pointer; }
+      @media (max-width: 667px) {
+        body main .biografia .description-img .title button {
+          font-size: 31px;
+          height: 57px;
+          width: 250px; } }
+    body main .biografia .description-img .title button:hover {
+      background-color: #FFFFFF;
+      color: #004D94;
+      border: solid 1px #004D94; }
+    body main .biografia .description-img .title::before {
+      content: "";
+      background-image: url("../../assets/images/Borde-Biografia-Izquierda.png");
+      padding-left: 10%;
+      padding-bottom: 80%;
+      background-repeat: no-repeat;
+      margin-left: -27%; }
+      @media (max-width: 667px) {
+        body main .biografia .description-img .title::before {
+          display: none; } }
+    @media (max-width: 667px) {
+      body main .biografia .description-img .img {
+        margin-top: 40px;
+        margin-left: -8%; } }
+    body main .biografia .description-img .img img {
+      background-color: #FFFFFF;
+      height: 300px;
+      width: 300px;
+      border-radius: 168px; }
+    body main .biografia .description-img .img::after {
+      content: "";
+      background-image: url("../../assets/images/Borde-Biografia-Derecho.png");
+      padding-left: 9%;
+      padding-bottom: 57%;
+      background-repeat: no-repeat;
+      padding-top: 145px;
+      margin-left: 22%; }
+      @media (max-width: 667px) {
+        body main .biografia .description-img .img::after {
+          display: none; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .biografia .description-img .img::after {
+          padding-top: 307px;
+          margin-left: 84%; } }
+      @media (min-width: 1025px) {
+        body main .biografia .description-img .img::after {
+          padding-top: 145px;
+          margin-left: 22%; } }
+
+body main .cards {
+  text-align: center;
+  background-image: url("../../assets/images/Fondo-Enfermeras.png");
+  background-size: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 12%; }
+  @media (max-width: 667px) {
+    body main .cards {
+      margin-top: 1133px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .cards {
+      padding-bottom: 4%;
+      margin-top: 607px; } }
+  @media (min-width: 1025px) {
+    body main .cards {
+      margin-top: 845px; } }
+  body main .cards h3 {
+    font-size: 32px;
+    color: #05283C;
+    margin-top: 258px;
+    font-weight: bold; }
+  body main .cards .group-1 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 100px; }
+    body main .cards .group-1 .card-1,
+    body main .cards .group-1 .card-2,
+    body main .cards .group-1 .card-3 {
+      background-color: #FFFFFF;
+      border: solid 2px #78D1DF;
+      border-radius: 27px;
+      height: 266px;
+      margin-right: 35px; }
+      @media (max-width: 667px) {
+        body main .cards .group-1 .card-1,
+        body main .cards .group-1 .card-2,
+        body main .cards .group-1 .card-3 {
+          max-width: 100%;
+          margin-right: 9px;
+          margin-bottom: 65px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .cards .group-1 .card-1,
+        body main .cards .group-1 .card-2,
+        body main .cards .group-1 .card-3 {
+          max-width: 28%; } }
+      @media (min-width: 1025px) {
+        body main .cards .group-1 .card-1,
+        body main .cards .group-1 .card-2,
+        body main .cards .group-1 .card-3 {
+          max-width: 30%; } }
+    body main .cards .group-1 img {
+      margin-top: 34px;
+      margin-bottom: 19px; }
+  body main .cards .group-2 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 59px; }
+    body main .cards .group-2 .card-1,
+    body main .cards .group-2 .card-2,
+    body main .cards .group-2 .card-3 {
+      background-color: #FFFFFF;
+      border: solid 2px #78D1DF;
+      border-radius: 27px;
+      height: 266px;
+      margin-right: 35px; }
+      @media (max-width: 667px) {
+        body main .cards .group-2 .card-1,
+        body main .cards .group-2 .card-2,
+        body main .cards .group-2 .card-3 {
+          max-width: 100%;
+          margin-right: 9px;
+          margin-bottom: 65px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .cards .group-2 .card-1,
+        body main .cards .group-2 .card-2,
+        body main .cards .group-2 .card-3 {
+          max-width: 28%; } }
+      @media (min-width: 1025px) {
+        body main .cards .group-2 .card-1,
+        body main .cards .group-2 .card-2,
+        body main .cards .group-2 .card-3 {
+          max-width: 30%; } }
+    body main .cards .group-2 img {
+      margin-top: 34px;
+      margin-bottom: 19px; }
+  body main .cards button {
+    background-color: #FFFFFF;
+    color: #004D88;
+    margin-top: 70px;
+    border: solid 1px #78D1DF;
+    border-radius: 17px;
+    width: 30%;
+    height: 43px;
+    transition: 1s;
+    cursor: pointer; }
+    @media (max-width: 667px) {
+      body main .cards button {
+        width: 100%;
+        height: 56px; } }
+  body main .cards button:hover {
+    background-color: #004D88;
+    color: #FFFFFF; }

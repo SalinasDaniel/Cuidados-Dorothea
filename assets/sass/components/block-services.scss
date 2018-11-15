@@ -1,6 +1,9 @@
 body {
     main {
         .block-services {
+            @include breakpoint(phone) {
+                margin-bottom: 1550px;
+            }
             hr {
                 @include breakpoint(phone) {
                     display: none;
@@ -22,15 +25,23 @@ body {
             .items {
                 margin-right: 0;
                 margin-left: 0;
-                height: 220px;
+                height: 250px;
                 margin-top: 130px;
                 margin-bottom: 90px;
                 @include breakpoint(phone) {
-                    margin-bottom: 200px;
+                    margin-bottom: 266px;
+                    padding-right: 6%;
+                    padding-left: 6%;
                 }
                 .ult {
                     @include breakpoint(phone) {
-                        margin-top: 728px;
+                        margin-top: 830px;
+                    }
+                }
+                .ult-2 {
+                    @include breakpoint(phone) {
+                        margin-top: 36px !important;
+                        padding-bottom: 2% !important;
                     }
                 }
                 .item-1 {
@@ -40,22 +51,24 @@ body {
                     img {
                         background-color: #78D1DF;
                         border-radius: 184px;
-                        width: 228px;
+                        width: 264px;
+                        box-shadow: 5px 5px 18px -4px rgba(0, 0, 0, 0.75);
                         @include breakpoint(tablet) {
-                            margin-left: 22%;
+                            margin-left: 10%;
                         }
                         @include breakpoint(desktop) {
-                            margin-left: 42%;
+                            margin-left: 36%;
                         }
                     }
                 }
                 .item-2 {
-                    border-radius: 115px 0px 0px 115px;
+                    border-radius: 140px 0px 0px 140px;
                     background-color: #78D1DF;
                     text-align: center;
                     @include breakpoint(phone) {
                         border-radius: 69px 69px 0px 0px;
                         margin-top: 35px;
+                        padding-bottom: 1%;
                     }
                     p {
                         font-weight: bold;
@@ -70,6 +83,11 @@ body {
                         border-radius: 28px;
                         cursor: pointer;
                         transition: 1s;
+                        @include breakpoint(phone) {
+                            font-size: 29px;
+                            width: 82%;
+                            height: 61px;
+                        }
                     }
                     button:hover {
                         background-color: #FFFFFF;
@@ -85,9 +103,11 @@ body {
                         padding-bottom: 28px;
                     }
                     ul {
-                        margin-top: 29px;
+                        margin-top: 23px;
+                        font-size: 20px;
                         @include breakpoint(phone) {
                             margin-left: 26%;
+                            font-size: 22px;
                         }
                         li {
                             margin-bottom: 12px;
@@ -100,7 +120,7 @@ body {
                     background-color: #78D1DF;
                     text-align: center;
                     @include breakpoint(phone) {
-                        margin-top: 628px;
+                        margin-top: 740px;
                         border-radius: 69px 69px 0px 0px;
                     }
                     p {
@@ -116,6 +136,11 @@ body {
                         border-radius: 28px;
                         cursor: pointer;
                         transition: 1s;
+                        @include breakpoint(phone) {
+                            font-size: 29px;
+                            width: 82%;
+                            height: 61px;
+                        }
                     }
                     button:hover {
                         background-color: #FFFFFF;
@@ -124,10 +149,14 @@ body {
                     }
                 }
                 .item-5 {
-                    border-radius: 0px 115px 115px 0px;
+                    border-radius: 0px 140px 140px 0px;
                     background-color: #78D1DF;
                     ul {
                         margin-top: 29px;
+                        font-size: 20px;
+                        @include breakpoint(phone) {
+                            font-size: 22px;
+                        }
                         li {
                             margin-bottom: 12px;
                         }
@@ -144,10 +173,11 @@ body {
                     img {
                         background: linear-gradient(to right, #78D1DF 0%, #78B5DC 100%);
                         border-radius: 184px;
-                        width: 228px;
+                        width: 264px;
                         margin-left: 3%;
+                        box-shadow: 5px 5px 18px -4px rgba(0, 0, 0, 0.75);
                         @include breakpoint(phone) {
-                            margin-top: -1169px;
+                            margin-top: -1463px;
                         }
                     }
                 }

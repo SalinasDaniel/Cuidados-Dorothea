@@ -1,10 +1,6 @@
 body {
     footer {
         background-color: #05283C;
-        @include breakpoint(phone) {
-            position: absolute;
-            top: 6500px;
-        }
         .row {
             margin-right: 0;
             .col-sm-8 {

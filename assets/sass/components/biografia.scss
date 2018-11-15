@@ -1,0 +1,151 @@
+body {
+    main {
+        .biografia {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-top: -181px;
+            margin-left: -1%;
+            position: absolute;
+            @include breakpoint(phone) {
+                margin-top: -50px;
+                background-color: #0C1E3A;
+            }
+            @include breakpoint(tablet) {
+                background-image: url('../../assets/images/Fondo-Biografia.png');
+            }
+            @include breakpoint(desktop) {
+                background-image: url('../../assets/images/Fondo-Biografia.png');
+            }
+            .items {
+                margin-right: 0;
+                margin-left: 0;
+                @include breakpoint(phone) {
+                    margin-top: 14px;
+                }
+                @include breakpoint(tablet) {
+                    margin-top: 129px;
+                }
+                @include breakpoint(desktop) {
+                    margin-top: 172px;
+                }
+                .item-1 {
+                    @include breakpoint(phone) {
+                        text-align: center;
+                    }
+                    @include breakpoint(tablet) {
+                        text-align: center;
+                    }
+                    @include breakpoint(desktop) {
+                        text-align: right;
+                    }
+                }
+                .item-2 {
+                    @include breakpoint(phone) {
+                        margin-top: 24px;
+                        margin-left: 0%;
+                    }
+                    text-align: center;
+                    margin-left: -11%;
+                    margin-top: 17px;
+                    color: #FFFF;
+                }
+            }
+            .description-img {
+                margin-right: 0;
+                margin-left: 0;
+                padding-left: 15%;
+                padding-bottom: 29%;
+                margin-top: 150px;
+                @include breakpoint(tablet) {
+                    margin-top: 55px;
+                }
+                @include breakpoint(desktop) {
+                    margin-top: 150px;
+                }
+                .title {
+                    @include breakpoint(phone) {
+                        margin-left: -6%;
+                        margin-top: -77px;
+                    }
+                    hr {
+                        background-color: #FFFFFF;
+                        width: 74%;
+                        margin-right: 32%;
+                        margin: 0;
+                    }
+                    h3 {
+                        color: #FFFFFF;
+                        font-size: 54px;
+                    }
+                    p {
+                        color: #FFFFFF;
+                        margin-top: 68px;
+                    }
+                    button {
+                        background-color: transparent;
+                        border: solid 1px #FFFFFF;
+                        color: #FFFFFF;
+                        border-radius: 29px;
+                        width: 134px;
+                        height: 36px;
+                        transition: 1s;
+                        cursor: pointer;
+                        @include breakpoint(phone) {
+                            font-size: 31px;
+                            height: 57px;
+                            width: 250px;
+                        }
+                    }
+                    button:hover {
+                        background-color: #FFFFFF;
+                        color: #004D94;
+                        border: solid 1px #004D94;
+                    }
+                }
+                .title::before {
+                    content: "";
+                    background-image: url('../../assets/images/Borde-Biografia-Izquierda.png');
+                    padding-left: 10%;
+                    padding-bottom: 80%;
+                    background-repeat: no-repeat;
+                    margin-left: -27%;
+                    @include breakpoint(phone) {
+                        display: none;
+                    }
+                }
+                .img {
+                    @include breakpoint(phone) {
+                        margin-top: 40px;
+                        margin-left: -8%;
+                    }
+                    img {
+                        background-color: #FFFFFF;
+                        height: 300px;
+                        width: 300px;
+                        border-radius: 168px;
+                    }
+                }
+                .img::after {
+                    content: "";
+                    background-image: url('../../assets/images/Borde-Biografia-Derecho.png');
+                    padding-left: 9%;
+                    padding-bottom: 57%;
+                    background-repeat: no-repeat;
+                    padding-top: 145px;
+                    margin-left: 22%;
+                    @include breakpoint(phone) {
+                        display: none;
+                    }
+                    @include breakpoint(tablet) {
+                        padding-top: 307px;
+                        margin-left: 84%;
+                    }
+                    @include breakpoint(desktop) {
+                        padding-top: 145px;
+                        margin-left: 22%;
+                    }
+                }
+            }
+        }
+    }
+}

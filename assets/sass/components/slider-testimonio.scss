@@ -8,10 +8,11 @@ body {
             }
             .testimonials {
                 .title-testimonio {
-                    margin-left: 8%;
+                    margin-left: 18%;
                     margin-top: 200px;
                     @include breakpoint(phone) {
                         margin-top: 80px;
+                        margin-left: 8%;
                     }
                     h2 {
                         font-weight: bold;
@@ -36,15 +37,15 @@ body {
                         }
                     }
                     img {
-                        margin-left: 37%;
+                        margin-left: 21%;
                         @include breakpoint(phone) {
                             display: none;
                         }
                         @include breakpoint(tablet) {
-                            margin-top: -272px;
+                            margin-top: -290px;
                         }
                         @include breakpoint(desktop) {
-                            margin-top: -247px;
+                            margin-top: -272px;
                         }
                     }
                 }
