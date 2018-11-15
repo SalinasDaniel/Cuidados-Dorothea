@@ -1,0 +1,54 @@
+body {
+    main {
+        .slider-testimonio {
+            height: 700px;
+            background: linear-gradient(to top, #EBEBEB 0%, #78D1DF 100%);
+            @include breakpoint(phone) {
+                height: 500px;
+            }
+            .testimonials {
+                .title-testimonio {
+                    margin-left: 8%;
+                    margin-top: 200px;
+                    @include breakpoint(phone) {
+                        margin-top: 80px;
+                    }
+                    h2 {
+                        font-weight: bold;
+                    }
+                    h2,
+                    h3 {
+                        @include breakpoint(phone) {
+                            font-size: 29px;
+                            margin-left: 3%
+                        }
+                    }
+                    .comilla {
+                        font-size: 190px;
+                        height: 126px;
+                        margin-top: -62px;
+                    }
+                    .testimonio {
+                        margin-left: 4%;
+                        width: 42%;
+                        @include breakpoint(phone) {
+                            width: 84%;
+                        }
+                    }
+                    img {
+                        margin-left: 37%;
+                        @include breakpoint(phone) {
+                            display: none;
+                        }
+                        @include breakpoint(tablet) {
+                            margin-top: -272px;
+                        }
+                        @include breakpoint(desktop) {
+                            margin-top: -247px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

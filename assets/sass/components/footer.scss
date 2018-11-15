@@ -1,17 +1,18 @@
 body {
     footer {
-        background-color: #4C4C4C;
+        background-color: #05283C;
+        @include breakpoint(phone) {
+            position: absolute;
+            top: 6500px;
+        }
         .row {
             margin-right: 0;
-            .col-sm-6 {
+            .col-sm-8 {
                 ul {
-                    margin-top: 101px;
+                    margin-top: 37px;
                     @include breakpoint(desktop) {
                         margin-left: 9%;
                         margin-top: 40px;
-                    }
-                    @include breakpoint(tablet) {
-                        margin-left: 9%;
                     }
                     li {
                         list-style: none;
