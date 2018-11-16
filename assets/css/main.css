@@ -76,14 +76,19 @@ body header .slide {
   @media (min-width: 668px) and (max-width: 1024px) {
     body header .slide {
       height: 416px; } }
-  body header .slide .cover-page img {
-    margin-top: 31px; }
+  body header .slide .cover-page .img {
+    text-align: right; }
     @media (max-width: 667px) {
-      body header .slide .cover-page img {
-        width: 100%; } }
-    @media (min-width: 668px) and (max-width: 1024px) {
-      body header .slide .cover-page img {
-        width: 115%; } }
+      body header .slide .cover-page .img {
+        text-align: center; } }
+    body header .slide .cover-page .img img {
+      margin-top: 31px; }
+      @media (max-width: 667px) {
+        body header .slide .cover-page .img img {
+          width: 35%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .slide .cover-page .img img {
+          width: 46%; } }
   body header .slide .title {
     color: #FFFFFF; }
     @media (max-width: 667px) {
@@ -880,9 +885,9 @@ body main .popups .modal .modal-dialog {
         padding-right: 2%; }
     body main .popups .modal .modal-dialog .modal-content .modal-body .efermera {
       position: absolute;
-      right: 36%;
+      right: 84%;
       bottom: 0;
-      width: 165%; }
+      width: 64%; }
       @media (max-width: 667px) {
         body main .popups .modal .modal-dialog .modal-content .modal-body .efermera {
           display: none; } }

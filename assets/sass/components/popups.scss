@@ -34,9 +34,9 @@ body {
                         .modal-body {
                             .efermera {
                                 position: absolute;
-                                right: 36%;
+                                right: 84%;
                                 bottom: 0;
-                                width: 165%;
+                                width: 64%;
                                 @include breakpoint(phone) {
                                     display: none;
                                 }
