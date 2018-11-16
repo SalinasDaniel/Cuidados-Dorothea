@@ -79,13 +79,14 @@ body {
                         background-color: transparent;
                         color: #FFFFFF;
                         border: solid 1px #FFFFFF;
-                        width: 42%;
+                        width: 50%;
                         border-radius: 28px;
                         cursor: pointer;
                         transition: 1s;
+                        font-size: 20px;
                         @include breakpoint(phone) {
                             font-size: 29px;
-                            width: 82%;
+                            width: 90%;
                             height: 61px;
                         }
                     }
@@ -120,7 +121,7 @@ body {
                     background-color: #78D1DF;
                     text-align: center;
                     @include breakpoint(phone) {
-                        margin-top: 740px;
+                        margin-top: 736px;
                         border-radius: 69px 69px 0px 0px;
                     }
                     p {
@@ -132,13 +133,14 @@ body {
                         background-color: transparent;
                         color: #FFFFFF;
                         border: solid 1px #FFFFFF;
-                        width: 42%;
+                        width: 50%;
                         border-radius: 28px;
                         cursor: pointer;
                         transition: 1s;
+                        font-size: 20px;
                         @include breakpoint(phone) {
                             font-size: 29px;
-                            width: 82%;
+                            width: 90%;
                             height: 61px;
                         }
                     }

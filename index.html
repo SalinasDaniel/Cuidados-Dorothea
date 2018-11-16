@@ -5,7 +5,7 @@
     <title>Cuidados Dorothea</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Permite que un experto se encargue, y consigue independencia para ti y para el paciente.">
+    <meta name="description" content="Permite que un experto se encargue, y consigue independencia para ti y para el paciente. Estamos listos para contribuir a la recuperación del paciente y cuidarlo de manera integral.">
     <link href="index.html" rel="canonical">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -48,7 +48,7 @@
                                     <li><i class="fa-li fas fa-check"></i>Cuidado de enfermedades crónicas</li>
                                     <li><i class="fa-li fas fa-check"></i>Discapacidades y cuidados especiales</li>
                                 </ul>
-                                <button>SOLICITAR ENFERMERA AHORA</button>
+                                <button data-toggle="modal" data-target="#myModal">SOLICITAR ENFERMERA AHORA</button>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <button>Empezar Ahora</button>
+            <button data-toggle="modal" data-target="#myModal2">Empezar Ahora</button>
         </section>
 
         <section class="columna-2">
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-sm-4 item-2">
                     <p>CUIDADO <br> INTEGRAL</p>
-                    <button>Más Información</button>
+                    <button data-toggle="modal" data-target="#myModal3">Más Información</button>
                 </div>
                 <div class="col-sm-4 item-3">
                     <ul class="fa-ul">
@@ -150,7 +150,7 @@
                 <div class="col-sm-4 item-4">
                     <br>
                     <p>ENFERMERÍA</p>
-                    <button>Más Información</button>
+                    <button data-toggle="modal" data-target="#myModal4">Más Información</button>
                 </div>
                 <div class="col-sm-4 item-5">
                     <ul class="fa-ul">
@@ -175,7 +175,7 @@
                 <div class="col-sm-4 item-2 ult-2">
                     <br>
                     <p>PREVENCIÓN</p>
-                    <button>Más Información</button>
+                    <button data-toggle="modal" data-target="#myModal5">Más Información</button>
                 </div>
                 <div class="col-sm-4 item-3">
                     <br>
@@ -223,7 +223,7 @@
                     <hr>
                     <p>Enfermera Estadounidense, que con sus cualidades y conocimientos implementó su modelo como una teoría para los cuidados del paciente.<br><br> Dedico su vida a explicar cómo los individuos sometidos a limitaciones debido a su salud,
                         no pueden asumir su autocuidado. Determina por qué se necesita de la intervención de la enfermera. </p>
-                    <button>Conocer más</button>
+                    <button data-toggle="modal" data-target="#myModal6">Conocer más</button>
                 </div>
                 <div class="col-sm-6 img">
                     <img src="assets/images/Dorothea-Orem.png" alt="Dorothea Orem">
@@ -263,7 +263,179 @@
                     <p>Amor y paciencia en <br> el cuidado del paciente</p>
                 </div>
             </div>
-            <button>Solicitar Enfermera Ahora</button>
+            <button data-toggle="modal" data-target="#myModal7">Solicitar Enfermera Ahora</button>
+        </section>
+
+        <section class="whatsapp">
+            <br>
+            <h3>Escríbe a nuestro whatsapp <br> dando click al siguiente botón</h3>
+            <a href="https://api.whatsapp.com/send?phone=573224709707" target="_blank">
+                <img src="assets/images/Contacto-Whatsapp.png" alt="Whatsapp"></a>
+            <p>O llama al <strong>322 4709707</strong></p>
+        </section>
+
+        <section class="formulario-final">
+            <br>
+            <p class="title">Estamos listos para contribuir <br> a la recuperación del paciente <br> <strong>y cuidarlo de manera integral.</strong></p>
+            <div class="row form-description">
+                <div class="col-sm-8 description">
+                    <p>Obtén 4 horas de cuidado <br> en Bogotá totalmente <br> <strong><label>GRATIS</label> y descubre porqué <br> somos los indicados</strong></p>
+                    <img src="assets/images/Flecha-Form-Final.png" alt="Flecha Fomulario">
+                </div>
+                <div class="col-sm-4 form">
+                    <form action="/action_page.php">
+                        <p>Solicitar primeras <br> <strong> 4 horas <label>gratis</label> </strong></p>
+                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="number" class="form-control" placeholder="Celular">
+                        <input type="email" class="form-control" placeholder="Email">
+                        <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="popups">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                            <p>Por favor, completa <br> <strong> los datos solicitados </strong></p>
+                            <img class="efermera" src="assets/images/Enfermera.png" alt="Enfermera">
+                            <form action="/action_page.php">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                            </form>
+                            <img class="cruz" src="assets/images/Cruz-Enfermeria.png" alt="Cruz Enfermeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Modal -->
+            <!-- Modal 2 -->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                            <p>Por favor, completa <br> <strong> los datos solicitados </strong></p>
+                            <img class="efermera" src="assets/images/Enfermera.png" alt="Enfermera">
+                            <form action="/action_page.php">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                            </form>
+                            <img class="cruz" src="assets/images/Cruz-Enfermeria.png" alt="Cruz Enfermeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Modal 2 -->
+            <!-- Modal 3 -->
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                            <p>Por favor, completa <br> <strong> los datos solicitados </strong></p>
+                            <img class="efermera" src="assets/images/Enfermera.png" alt="Enfermera">
+                            <form action="/action_page.php">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                            </form>
+                            <img class="cruz" src="assets/images/Cruz-Enfermeria.png" alt="Cruz Enfermeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Modal 3 -->
+            <!-- Modal 4 -->
+            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                            <p>Por favor, completa <br> <strong> los datos solicitados </strong></p>
+                            <img class="efermera" src="assets/images/Enfermera.png" alt="Enfermera">
+                            <form action="/action_page.php">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                            </form>
+                            <img class="cruz" src="assets/images/Cruz-Enfermeria.png" alt="Cruz Enfermeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Modal 4 -->
+            <!-- Modal 5 -->
+            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                            <p>Por favor, completa <br> <strong> los datos solicitados </strong></p>
+                            <img class="efermera" src="assets/images/Enfermera.png" alt="Enfermera">
+                            <form action="/action_page.php">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                            </form>
+                            <img class="cruz" src="assets/images/Cruz-Enfermeria.png" alt="Cruz Enfermeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Modal 5 -->
+            <!-- Modal 6 -->
+            <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                            <p>Por favor, completa <br> <strong> los datos solicitados </strong></p>
+                            <img class="efermera" src="assets/images/Enfermera.png" alt="Enfermera">
+                            <form action="/action_page.php">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                            </form>
+                            <img class="cruz" src="assets/images/Cruz-Enfermeria.png" alt="Cruz Enfermeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Modal 6 -->
+            <!-- Modal 7 -->
+            <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                            <p>Por favor, completa <br> <strong> los datos solicitados </strong></p>
+                            <img class="efermera" src="assets/images/Enfermera.png" alt="Enfermera">
+                            <form action="/action_page.php">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="number" class="form-control" placeholder="Celular">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <button type="submit" class="btn btn-default bton">INICIAR AHORA</button>
+                            </form>
+                            <img class="cruz" src="assets/images/Cruz-Enfermeria.png" alt="Cruz Enfermeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Modal 7 -->
         </section>
 
     </main>
