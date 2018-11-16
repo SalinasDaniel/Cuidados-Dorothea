@@ -1,8 +1,10 @@
 body {
     header {
         .slide {
-            height: 650px;
             background: linear-gradient(to right, #78D1DF 0%, #78B5DC 100%);
+            @include breakpoint(phone) {
+                height: 650px;
+            }
             @include breakpoint(tablet) {
                 height: 416px;
             }
@@ -52,6 +54,7 @@ body {
                     transition: 1s;
                     @include breakpoint(phone) {
                         font-size: 17px;
+                        width: 90%;
                     }
                     @include breakpoint(tablet) {
                         font-size: 17px;

@@ -2,9 +2,7 @@ html body {
   font-family: 'Quicksand', sans-serif; }
 
 body header .logo-contact {
-  margin-top: 2%;
-  text-align: center;
-  margin-bottom: 15px; }
+  text-align: center; }
   @media (min-width: 1025px) {
     body header .logo-contact {
       text-align: left;
@@ -71,8 +69,10 @@ body footer {
           margin-bottom: 40px; } }
 
 body header .slide {
-  height: 650px;
   background: linear-gradient(to right, #78D1DF 0%, #78B5DC 100%); }
+  @media (max-width: 667px) {
+    body header .slide {
+      height: 650px; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body header .slide {
       height: 416px; } }
@@ -115,7 +115,8 @@ body header .slide {
       transition: 1s; }
       @media (max-width: 667px) {
         body header .slide .title button {
-          font-size: 17px; } }
+          font-size: 17px;
+          width: 90%; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body header .slide .title button {
           font-size: 17px; } }
@@ -136,15 +137,16 @@ body main .columna {
     color: #C0C0C0; }
     @media (max-width: 667px) {
       body main .columna p {
-        font-size: 25px; } }
+        font-size: 25px;
+        margin-top: -16px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .columna p {
         font-size: 30px;
-        line-height: 3; } }
+        line-height: 1.3; } }
     @media (min-width: 1025px) {
       body main .columna p {
         font-size: 35px;
-        line-height: 2.5; } }
+        line-height: 1.2; } }
 
 body main .block-3-items {
   text-align: center;
@@ -375,7 +377,6 @@ body main .block-services {
         font-size: 20px; }
         @media (max-width: 667px) {
           body main .block-services .items .item-3 ul {
-            margin-left: 26%;
             font-size: 22px; } }
         body main .block-services .items .item-3 ul li {
           margin-bottom: 12px; }

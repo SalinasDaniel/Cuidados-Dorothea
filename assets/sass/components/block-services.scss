@@ -107,7 +107,6 @@ body {
                         margin-top: 23px;
                         font-size: 20px;
                         @include breakpoint(phone) {
-                            margin-left: 26%;
                             font-size: 22px;
                         }
                         li {
