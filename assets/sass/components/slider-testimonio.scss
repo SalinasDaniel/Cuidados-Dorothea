@@ -1,7 +1,6 @@
 body {
     main {
         .slider-testimonio {
-            height: 750px;
             background: linear-gradient(to top, #EBEBEB 0%, #78D1DF 100%);
             @include breakpoint(phone) {
                 height: 500px;

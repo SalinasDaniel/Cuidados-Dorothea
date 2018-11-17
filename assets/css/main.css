@@ -238,7 +238,6 @@ body main .columna-2 {
         font-weight: bold; }
 
 body main .slider-testimonio {
-  height: 750px;
   background: linear-gradient(to top, #EBEBEB 0%, #78D1DF 100%); }
   @media (max-width: 667px) {
     body main .slider-testimonio {
